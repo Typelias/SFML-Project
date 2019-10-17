@@ -3,8 +3,8 @@
 
 Door::Door(GameDataRef data, bool open) : _data(data), isOpen(open)
 {
-	sideA.setFillColor(sf::Color::Color(125, 125, 125));
-	sideB.setFillColor(sf::Color::Color(125, 125, 125));
+	sideA.setFillColor(sf::Color(125, 125, 125));
+	sideB.setFillColor(sf::Color(125, 125, 125));
 }
 
 sf::FloatRect Door::sideABounds()

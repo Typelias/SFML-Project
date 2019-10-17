@@ -2,7 +2,7 @@
 
 Wall::Wall(GameDataRef data) : _data(data)
 {
-	body.setFillColor(sf::Color::Color(125, 125, 125));
+	body.setFillColor(sf::Color(125, 125, 125));
 }
 
 

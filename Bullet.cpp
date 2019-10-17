@@ -38,7 +38,7 @@ void Bullet::calculateVel(sf::Vector2f start, sf::Vector2f target)
 	sf::Vector2f aimDirNorm;
 
 	aimDir = target - start;
-	aimDirNorm = aimDir / sqrt(pow(aimDir.x, 2) + pow(aimDir.y, 2));
+	aimDirNorm = aimDir / float(sqrt(pow(aimDir.x, 2) + pow(aimDir.y, 2)));
 
 	currVelocity = aimDirNorm * speed;
 }

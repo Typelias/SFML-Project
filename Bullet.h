@@ -1,5 +1,6 @@
 #pragma once
 #include <SFML/Graphics.hpp>
+#include <math.h>
 /*!
 	Bullet is used to create the projectiles in the game
 */
