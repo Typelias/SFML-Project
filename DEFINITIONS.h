@@ -7,13 +7,13 @@
 
 #define SPLASH_SCENE_BACKGROUND_FILEPATH "Resources/res/splash.png"
 
-#define Player_TEXTURE "Resources/res/Player.png"
+#define Player_TEXTURE "Resources/res/player.png"
 
 #define Wall_THICKNESS 50.f
 
 #define DEATH_SCENE_BACKGROUND_FILEPATH "Resources/res/death.png"
 
-#define Enemy_TEXTURE "Resources/res/Enemy.png"
+#define Enemy_TEXTURE "Resources/res/enemy.png"
 
 #define BOSS_TEXTURE "Resources/res/boss.png"
 
